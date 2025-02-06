@@ -1,0 +1,63 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.players-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.player-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.player-image {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; /* Pour s'assurer que l'image couvre bien l'espace */
+}
+
+.player-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.player-info h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.player-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.flag {
+  width: 50px;
+  height: auto;
+  margin-left: 10px;
+}
