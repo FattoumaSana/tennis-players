@@ -2,6 +2,7 @@
 import React from 'react';
 import PlayersList from './PlayersList';
 import Header from './Header';
+import Footer from './Footer';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Header /> 
       <PlayersList />
+      <Footer />
     </div>
   );
 }
